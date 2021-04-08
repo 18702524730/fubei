@@ -1,0 +1,99 @@
+	<div class="head">
+		<div class="logo">
+			<a href="index.html"><img src="../images/logo2.png"  /></a>
+		</div>
+		<div class="head01">
+			<!-- <a href="/">我们的位置</a> -->
+			<a href="contactUs.html">联系我们</a>
+
+			<script>
+				$(document).ready(function() {
+
+					$('.langdiv').hover(
+						function() {
+							$(this).children('ul', this).stop(true, true).slideDown(200);
+
+						},
+						function() {
+							$(this).children('ul', this).stop(true, true).slideUp(200);
+						}
+					);
+
+				});
+			</script>
+		</div>
+	</div>
+	<div class="nav">
+		<ul id='menu'>
+			<li>
+				<a href="specialty.html" class="li1">专业领域</a>
+				<dl>
+					<dd>
+						<a href="specialty.html?type=0" target="_self" title="专利">专利</a>
+					</dd>
+					<dd>
+						<a href="specialty.html?type=1" target="_self" title="商标">商标</a>
+					</dd>
+					<dd>
+						<a href="specialty.html?type=2" target="_self" title="版权">版权</a>
+					</dd>
+					<dd>
+						<a href="specialty.html?type=3" target="_self" title="商标托管">知识产权托管</a>
+					</dd>
+					<dd>
+						<a href="specialty.html?type=4" target="_self" title="科技项目服务">科技项目服务</a>
+					</dd>
+					<dd>
+						<a href="specialty.html?type=5" target="_self" title="维权服务">维权服务</a>
+					</dd>
+
+				</dl>
+			</li>
+			<li>
+				<a href="/careerMan.html" class="li2">专业人员</a>
+			</li>
+			<li>
+				<a href="partner.html" class="li3">合作对象</a>
+
+			</li>
+			<li>
+				<a href="/new.html" class="li4">新闻资讯</a>
+			</li>
+			
+			<li>
+				<a href="companyProfile.html" class="li7">了解我们</a>
+				<dl>
+					<dd>
+						<a href="companyProfile.html">企业简介</a>
+					</dd>
+					<dd>
+						<a href="CAASA.html">反侵权联盟介绍</a>
+					</dd>
+					<dd>
+						<a href="contactUs.html">联系方式</a>
+					</dd>
+				</dl>
+
+			</li>
+			<li>
+				<a href="recruitment.html" class="li3">招贤纳才</a>
+
+			</li>
+		</ul>
+	</div>
+
+		<script>
+		$(document).ready(function() {
+
+			$('#menu li').hover(
+				function() {
+					$(this).children('dl', this).stop(true, true).slideDown(200);
+
+				},
+				function() {
+					$(this).children('dl', this).stop(true, true).slideUp(200);
+				}
+			);
+
+		});
+	</script>

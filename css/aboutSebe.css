@@ -1,0 +1,5 @@
+﻿#Content{width:1100px;margin:0 auto;}
+#Content:after{display:block;clear:both;height:1px;content:"";}
+#Content1{width:180px;float:left;}
+#Content3{width:880px;float:right}
+#Content{}
